@@ -9,10 +9,10 @@ export 'package:linkify/linkify.dart'
         LinkElement,
         EmailElement,
         TextElement,
-        LinkType;
+        TelephoneElement;
 
 /// Callback clicked link
-typedef LinkCallback(LinkableElement link);
+typedef LinkCallback = Function(LinkableElement link);
 
 /// Turns URLs into links
 class Linkify extends StatelessWidget {
