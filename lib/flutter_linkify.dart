@@ -9,6 +9,7 @@ export 'package:linkify/linkify.dart'
         LinkElement,
         EmailElement,
         TextElement,
+        LinkType,
         TelephoneElement;
 
 /// Callback clicked link
