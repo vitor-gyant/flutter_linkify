@@ -18,7 +18,8 @@ class LinkifyExample extends StatelessWidget {
         body: Center(
           child: Linkify(
             onOpen: _onOpen,
-            text: "Made by https://cretezy.com\n\nMail: example@gmail.com",
+            text:
+                "Made by https://cretezy.com\n\nMail: example@gmail.com \n\Tel: tel:000000000",
           ),
         ),
       ),
